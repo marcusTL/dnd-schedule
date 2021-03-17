@@ -12,17 +12,22 @@ import About from './About'
 const App = () => (
     <div>
         <nav class="navbar navbar-inverse">
-            <div class="container-fluid">                
+            <div class="container-fluid">
                 <ul class="nav navbar-nav">
-                    <li><Link to='/'>Frontpage</Link><br></br> </li>
+                    <li><Link to='/'>Frontpage</Link></li>
                     <li><Link to='/About'>About</Link></li>
                 </ul>
             </div>
-        </nav>
+        </nav>    
+
+        
 
         <Route exact path='/' component={Frontpage} />
         <Route path='/About' component={About} />
-    </div>
+
+        
+
+    </div>  
 )
 
 export default App
