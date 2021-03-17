@@ -1,9 +1,5 @@
 import React from 'react'
 
-//Den her bliver nok relevant senere for noget routing (menu)
-import { Route } from 'react-router-dom'
-
-
 const Forside = () => 
 (
     <div Class="col-sm-12">
@@ -26,7 +22,7 @@ const Forside = () =>
 
 
         <div Class="col-sm-4">
-            <h1>Why do we use it?</h1>
+            <h1>Hvad er D&D</h1>
 
             <p>
                 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
@@ -39,7 +35,7 @@ const Forside = () =>
 
 
         <div Class="col-sm-4">
-            <h1>1914 translation by H. Rackham</h1>
+            <h1>D&D kan redde bakterier på Mars</h1>
 
             <p>
             "On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish.
