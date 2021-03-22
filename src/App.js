@@ -4,30 +4,30 @@
 // -->   npm install --save react-router-dom
 
 
-import React from 'react'
-import { Route, Link } from 'react-router-dom'
-import Frontpage from './Frontpage'
-import About from './About'
+import React, {Component} from 'react'
+import Header from './Header'
+import Main from './Main'
 
+
+class App extends Component { 
+    render() {
+      return (
+        <div className="App">
+          <Header/>
+          <Main/>
+        </div>
+      );
+    }
+  }
+
+/*
 const App = () => (
     <div>
-        <nav class="navbar navbar-inverse">
-            <div class="container-fluid">
-                <ul class="nav navbar-nav">
-                    <li><Link to='/'>Frontpage</Link></li>
-                    <li><Link to='/About'>About</Link></li>
-                </ul>
-            </div>
-        </nav>    
-
-        
+        <Header/>
 
         <Route exact path='/' component={Frontpage} />
         <Route path='/About' component={About} />
-
-        
-
     </div>  
 )
-
+*/
 export default App
