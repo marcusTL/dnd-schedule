@@ -3,11 +3,20 @@ import react from 'react';
 const SearchResult = props =>{
         return(
             <div className="searchresult">
-                <h3>Result: </h3>
-                <div>{props.SearchResult}</div>
+                <div className="results-group">
+                    <h2>Results: </h2>
+                    <ul className="results">
+                        {this.props
+
+                        }
+
+                    </ul>
+                    
+                </div>
+
 
             </div>
         )
-}
+};
 
 export default SearchResult;

@@ -1,8 +1,24 @@
 import react, {Component} from 'react';
 import SearchBar from './SearchBar';
 import SearchResult from './SearchResult';
+import axios from 'axios';
 
 class DnDsearch extends Component {
+
+    state = {
+        results: null
+      }
+      onSearchSubmit = async (input) =>{
+        const response = await axios.get('https://www.dnd5eapi.co/api/'+input)
+        this.setState({results: response.data.results});
+      }
+
+    /*
+    dndSelect = (result) => {
+        this.props.
+    }
+    */
+    //<SearchResult searchresult={this.state.searchresult}/>
     render(){
         return(
             <div Class="col-sm-12">
@@ -20,8 +36,8 @@ class DnDsearch extends Component {
                 </div>
                 <div Class="col-sm-3">
                     <h1>Content</h1>
-                    <SearchResult/>
-
+                    
+                  <SearchResult/> 
 
                 </div>
             </div>
