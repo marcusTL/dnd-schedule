@@ -21,7 +21,7 @@ const about = () =>
             </h4> */}
 
                 <p>Vi er en gruppe 4.-semesterstuderende på datamatikeruddannelsen på Zealand i Roskilde.</p>
-<p>Obligatorisk opgave i Single Page WebApps (SPA) React/Angular http://heho-zealand.dk/WebAppsF2020/MandatoryAssignmentDK.html</p>
+                <p>Obligatorisk opgave i Single Page WebApps (SPA) React/Angular http://heho-zealand.dk/WebAppsF2020/MandatoryAssignmentDK.html</p>
                 <img src="https://geekandleisure.com/wp-content/uploads/2018/07/Best-DD-Dice-1024x640.jpg" class="img-rounded jumbotronImage img-fluid img-responsive" ></img>
 
 
@@ -38,18 +38,18 @@ const about = () =>
             <div Class="col-sm-4">
                 <h1>Oplysinger</h1>
 
-<p>Adresse: Zealand</p>
-<p>Telefon:</p>            
-</div>  
+                <p>Adresse: Zealand</p>
+                <p>Telefon:</p>
+            </div>
         </div>
 
         <br></br>
-        
+
         <footer Class="navbar navbar-inverse col-sm-12">
-            
+
         </footer>
 
-    </div>    
+    </div>
 )
 
 export default about
