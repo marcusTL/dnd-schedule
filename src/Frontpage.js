@@ -6,7 +6,7 @@ const Frontpage = () =>
 
         <div class="container">
             <div class="jumbotron">
-                <h1>Dungeon & Dragons</h1>
+                <h1>Dungeon & Dragons</h1 >
                 <p>Et sted for nørder og rollespillere!</p>
 
                 <img src="https://www.boardgamer.ie/img/cms/dungeons%20and%20dragons/dnd_banner%20top.jpg" class="img-rounded jumbotronImage img-fluid img-responsive" ></img>
