@@ -53,10 +53,7 @@ const Frontpage = () =>
         </div>
 
         <br></br>
-
-        <footer Class="navbar navbar-inverse col-sm-12">
-            
-        </footer> 
+    
     </div>    
 )
 

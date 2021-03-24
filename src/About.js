@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 const about = () =>
 (
     <div Class="col-sm-12">
@@ -44,10 +45,8 @@ const about = () =>
         </div>
 
         <br></br>
+    
 
-        <footer Class="navbar navbar-inverse col-sm-12">
-
-        </footer>
 
     </div>
 )
