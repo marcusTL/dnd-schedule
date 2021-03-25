@@ -2,7 +2,8 @@ import React from "react";
 import './footer.css'
 
 const Footer = () => (
-  <div class="container-fluid" className="footer">
+  <div className="footer">
+    <div class="container-fluid" className="footer"></div>
     <p>Footer... MIKKEL OLSEN ©©©</p>
   </div>
 );
