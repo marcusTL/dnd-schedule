@@ -6,10 +6,33 @@ const Frontpage = () =>
 
         <div class="container">
             <div class="jumbotron">
+
+
+
+                <div class="ui segment">
+                    <a id="value" class="ui red label massive">Standard view</a>
+                    <br /><br />
+                    <button
+                        class="ui red button"
+                        onClick="store.dispatch(standardView())">
+                        Standard View
+                    </button>
+                    <button
+                        class="ui blue button"
+                        onClick="store.dispatch(RSSView())">
+                        RSS View
+                    </button>
+                </div>
+
+
+
+
                 <h1>Dungeon & Dragons</h1 >
                 <p>Et sted for nørder og rollespillere!</p>
 
                 <img src="https://www.boardgamer.ie/img/cms/dungeons%20and%20dragons/dnd_banner%20top.jpg" class="img-rounded jumbotronImage img-fluid img-responsive" ></img>
+
+
 
             </div>
         </div>
@@ -20,7 +43,7 @@ const Frontpage = () =>
 
                 <h4>
                     Et gammelt spil spillet med "pen and paper"
-            </h4>
+                </h4>
 
                 <p>Dungeons & Dragons (forkortet D&D eller DnD) er et bordrollespil. Det blev opfundet af Gary Gygax og Dave Arneson i 1970 og udgivet af Garys firma Tactical Studies Rules (TSR).</p>
 
@@ -49,12 +72,12 @@ const Frontpage = () =>
                 <p>Dungeons & Dragons kan spilles på mange måder, alt efter temperament, humør eller behov. Nogle lægger megen vægt på dialoger og at spille særlige roller, andre på intriger eller detektivagtige mysterier, mens andre igen bruger megen tid på kampsituationer og powergaming (dvs. at stige hurtigt i niveau og udvikle magtfulde spilkarakterer).</p>
 
                 <p>Som rekvisitter til spillet bruges Dungeons & Dragons grundregler, særlige polyhedrale terninger, skriveredskaber og papir. Hertil kan Dungeon Master'en finde inspiration i de mange spilmoduler og spilverdener der er udgivet. Det er meget udbredt også at anvende særlige metalfigurer til at repræsentere spilkaraktererne og de personer og væsner som de møder i spillet, især i forbindelse med kampsituationer, hvor afstande og indbyrdes placering bliver meget afgørende.</p>
-            </div> 
+            </div>
         </div>
 
         <br></br>
-    
-    </div>    
+
+    </div>
 )
 
 export default Frontpage
