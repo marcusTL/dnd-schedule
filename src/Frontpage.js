@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Frontpage = () =>
+const Frontpage = () =>     
 (
     <div Class="col-sm-12">
 
