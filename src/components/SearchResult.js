@@ -7,36 +7,56 @@ class SearchResult extends React.Component {
     componentDidMount(){
         this.props.fetchData();
     }
-    render(){
-        return this.props.name.map(spell => {
+    renderList() {
+        return this.props.names.map(spell => {
+            return (
+                <li className="item" key={spell.name}>
+                   <h4>{spell.name}</h4>
+                </li>
+            )
+        })
+    }
+
+    render() {
+        return (
+            <div className="row">
+                    <h1>DnD 5e Spells</h1>
+                    <ul class="namelist">
+                        {this.renderList()}
+                    </ul>
+            </div>
+
+        );
+    }
+}
+
+const mapStateToProps = (state) => {
+    return { names: state.names };
+}
+
+export default connect(mapStateToProps, {fetchData})(SearchResult);
+
+/*
+    renderResult() {
+        return this.props.names.map(spell => {
             return(
                 <div>
-                    <div className="item" key={spell.name}>
-                        {spell.name}
+                    <div className="item"> 
+                    
+                        <h2>{spell.name}</h2>
+                        
                     </div>
                 </div>
                 
             )
         })
     }
-}
-
-const mapStateToProps = state => {
-    return { name: state.name };
-}
-
-export default connect(mapStateToProps, {fetchData})(SearchResult);
-
-/*
-        (
-            <div className="searchresult">
-                <div className="results-group">
-                    <h2>Results: </h2>
-                    
-                    
-                </div>
+    render() {
+        return(
+            <div>
+                {this.renderResult}
             </div>
         )
 
     }
-*/  
+    */
