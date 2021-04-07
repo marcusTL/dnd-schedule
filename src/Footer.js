@@ -75,7 +75,7 @@ function Footer() {
           {/* Footer bund */}
           <div className="footer-bottom">
             <p className="text-xs-center">
-              &copy;{new Date().getFullYear()} City Guide App - All Rights
+              &copy;{new Date().getFullYear()} Mikkel den smukke - All Rights
               Reserved
             </p>
           </div>
