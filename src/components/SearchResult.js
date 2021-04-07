@@ -6,9 +6,7 @@ const SearchResult = props =>{
                 <div className="results-group">
                     <h2>Results: </h2>
                     <ul className="results">
-                        {this.props
-
-                        }
+                        {/* this.props */}
 
                     </ul>
                     
