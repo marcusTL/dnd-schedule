@@ -42,7 +42,7 @@ function Navbar() {
               className="nav-link text-white text-uppercase ml-5"
               to="/dndsearch"
             >
-              SEjt
+              Search
             </Link>
           </li>
         </ul>
