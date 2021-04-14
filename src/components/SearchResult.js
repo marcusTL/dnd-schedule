@@ -8,6 +8,7 @@ class SearchResult extends React.Component {
         this.props.fetchData();
     }
     renderList() {
+        console.log(this.props.names)
         return this.props.names.map(spell => {
             return (
                 <li className="item" key={spell.name}>

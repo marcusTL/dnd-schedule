@@ -1,9 +1,9 @@
 import dndapi from '../apis/dnd';
 
 export const fetchData = () => async dispatch => {
-    const response = await dndapi.get('/api/spells/lightning-bolt')
+    const response = await dndapi.get('/api/spells')
     console.log("response.data.name")
-    dispatch({type: 'FETCH_DATA', payload: response.data.name}) 
+    dispatch({type: 'FETCH_DATA', payload: response.data.results}) 
 
     //this is suppossed to fetch the name of https://www.dnd5eapi.co/api/spells/lightning-bolt
 }

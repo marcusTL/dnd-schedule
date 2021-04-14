@@ -9,7 +9,7 @@ class DnDsearch extends Component {
         results: null
       }
       onSearchSubmit = async (input) =>{
-        const response = await axios.get('https://www.dnd5eapi.co/api/'+input)
+        const response = await axios.get('https://www.dnd5eapi.co/api/spells/'+input)
         this.setState({results: response.data.results});
       }
 
@@ -31,12 +31,10 @@ class DnDsearch extends Component {
                            ipsum congue sit amet. Nulla euismod, purus sed cursus maximus, mi massa aliquet sem, vitae accumsan arcu ante id
                             ex. Fusce quis venenatis eros, quis dignissim turpis.</p>
                 
-                        <SearchBar/>
+                        <SearchBar onSearchDnD={this.onSearchSubmit}/>
                     </div>
                 </div>
                 <div Class="col-sm-3">
-                    <h1>Content</h1>
-                    
                   <SearchResult/> 
 
                 </div>
