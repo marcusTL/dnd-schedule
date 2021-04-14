@@ -6,7 +6,7 @@
 
 import React, {Component} from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Header from './Header'
+import Header from './Navbar'
 import Main from './Main'
 import Footer from './Footer'
 import './App.css';
