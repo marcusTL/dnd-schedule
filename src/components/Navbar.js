@@ -32,17 +32,17 @@ function Navbar() {
           <li className="nav-item">
             <Link
               className="nav-link text-white text-uppercase ml-5"
-              to="/about"
+              to="/dndsearch"
             >
-              About
+              Søg
             </Link>
           </li>
           <li className="nav-item">
             <Link
               className="nav-link text-white text-uppercase ml-5"
-              to="/dndsearch"
+              to="/About"
             >
-              Search
+              OM OS
             </Link>
           </li>
         </ul>

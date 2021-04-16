@@ -37,7 +37,7 @@ const Frontpage = () =>
             </div>
         </div>
 
-        <div class="container">
+        <div class="row">
             <div Class="col-sm-4">
                 <h1>Hvad er D&D</h1>
 
@@ -67,7 +67,7 @@ const Frontpage = () =>
 
 
             <div Class="col-sm-4">
-                <h1>Stremningen i D&D</h1>
+                <h1>Stemningen i D&D</h1>
 
                 <p>Dungeons & Dragons kan spilles på mange måder, alt efter temperament, humør eller behov. Nogle lægger megen vægt på dialoger og at spille særlige roller, andre på intriger eller detektivagtige mysterier, mens andre igen bruger megen tid på kampsituationer og powergaming (dvs. at stige hurtigt i niveau og udvikle magtfulde spilkarakterer).</p>
 
@@ -76,7 +76,6 @@ const Frontpage = () =>
         </div>
 
         <br></br>
-
     </div>
 )
 

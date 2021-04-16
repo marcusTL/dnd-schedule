@@ -9,29 +9,29 @@ function Footer() {
           <div className="row">
             {/* Kolonne 1 */}
             <div className="col-md-3 col-sm-6">
-              <h4>Adresse</h4>
+              <h4>Kontakt</h4>
               <ul className="list-unstyled">
-                <li>Zealand</li>
-                <li>Nord Korea</li>
-                <li>69696969420</li>
-                <li>Test</li>
+                <li>Zealand - Sjællands Erhversakadami</li>
+                <li>4000, Roskilde</li>
+                <li>Maglegårdsvej 2</li>
+                <li>4550762630</li>
               </ul>
             </div>
             {/* Kolonne 2 */}
             <div className="col-md-3 col-sm-6">
-              <h4>Lorem ipsum</h4>
+              <h4>Kolonne 2</h4>
               <ul className="list-unstyled">
                 <li>
-                  <a href="#">Lorem ipsum</a>
+                  <a href="#">Link til andre sider</a>
                 </li>
                 <li>
-                  <a href="#">Lorem ipsum</a>
+                  <a href="#">Link til andre sider</a>
                 </li>
                 <li>
-                  <a href="#">Lorem ipsum</a>
+                  <a href="#">Link til andre sider</a>
                 </li>
                 <li>
-                  <a href="#">Lorem ipsum</a>
+                  <a href="#">Link til andre sider</a>
                 </li>
               </ul>
             </div>
