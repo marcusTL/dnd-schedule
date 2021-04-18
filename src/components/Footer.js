@@ -9,7 +9,9 @@ function Footer() {
           <div className="row">
             {/* Kolonne 1 */}
             <div className="col-md-3 col-sm-6">
-              <h4>Kontakt</h4>
+            
+            <h4>Kontakt</h4>
+         
               <ul className="list-unstyled">
                 <li>Zealand - Sjællands Erhversakadami</li>
                 <li>4000, Roskilde</li>
@@ -37,37 +39,37 @@ function Footer() {
             </div>
             {/* Kolonne 3 */}
             <div className="col-md-3 col-sm-6">
-              <h4>Lorem ipsum</h4>
+              <h4>Kolonne 3</h4>
               <ul className="list-unstyled">
                 <li>
-                  <a href="#">Lorem ipsum</a>
+                  <a href="#">Link til andre sider</a>
                 </li>
                 <li>
-                  <a href="#">Lorem ipsum</a>
+                  <a href="#">Link til andre sider</a>
                 </li>
                 <li>
-                  <a href="#">Lorem ipsum</a>
+                  <a href="#">Link til andre sider</a>
                 </li>
                 <li>
-                  <a href="#">Lorem ipsum</a>
+                  <a href="#">Link til andre sider</a>
                 </li>
               </ul>
             </div>
             {/* Kolonne 4 */}
             <div className="col-md-3 col-sm-6">
-              <h4>Lorem ipsum</h4>
+              <h4>Kolonne 4</h4>
               <ul className="list-unstyled">
                 <li>
-                  <a href="#">Lorem ipsum</a>
+                  <a href="#">Link til andre sider</a>
                 </li>
                 <li>
-                  <a href="#">Lorem ipsum</a>
+                  <a href="#">Link til andre sider</a>
                 </li>
                 <li>
-                  <a href="#">Lorem ipsum</a>
+                  <a href="#">Link til andre sider</a>
                 </li>
                 <li>
-                  <a href="#">Lorem ipsum</a>
+                  <a href="#">Link til andre sider</a>
                 </li>
               </ul>
             </div>
@@ -75,7 +77,7 @@ function Footer() {
           {/* Footer Bund */}
           <div className="footer-bottom">
             <p className="text-xs-center">
-              &copy;{new Date().getFullYear()} Mikkel Mikkle Mikkel - All Rights
+              &copy;{new Date().getFullYear()} Fangehuller og Drager - All Rights
               Reserved
             </p>
           </div>
@@ -106,3 +108,4 @@ const FooterContainer = styled.footer`
     color: var(--mainLightGrey);
   }
 `;
+//1 "rem",R.E.M, er lig med skriftstørelsen af HTML-elementet, hvilket er 16px for de fleste browsers.
