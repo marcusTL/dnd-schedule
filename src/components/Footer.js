@@ -11,6 +11,7 @@ function Footer() {
             <div className="col-md-3 col-sm-6">
             
             <h4>Kontakt</h4>
+            
          
               <ul className="list-unstyled">
                 <li>Zealand - Sjællands Erhversakadami</li>
