@@ -24,11 +24,8 @@ const Frontpage = () =>
                     </button>
                 </div>
 
-
-
-
-                <h1>Dungeon & Dragons</h1 >
-                <p>Et sted for nørder og rollespillere!</p>
+                <h1>DnD App</h1 >
+                <h4>Forside</h4>
 
                 <img src="https://www.boardgamer.ie/img/cms/dungeons%20and%20dragons/dnd_banner%20top.jpg" class="img-rounded jumbotronImage img-fluid img-responsive" ></img>
 

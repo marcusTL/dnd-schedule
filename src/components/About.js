@@ -14,21 +14,31 @@ const About = () =>
         <div class="row">
             <div class="col-sm">
                 <h1>Hvem er vi?</h1>
-    </div>
+                <p>Vi er en gruppe fjerdesemesterstuderende på datamatikeruddannelsen på <b>Zealand</b> i Roskilde.</p>
+                <p>Projektet er udarbejdet i faget, Webprogramming - WebApps with Angular and other JS-frameworks.</p>
+                <p>Dette projekt er en Single Page WebApp(SPA) React App</p>
+            </div>
             <div class="col-sm">
                 <h1>Opgaven</h1>
-    </div>
-            <div class="col-sm"> 
-                <h1>SEJ OVERSKRIFT <i class="fas fa-coffee fa-spin"/> </h1>
+                <p>Link til opgavebeskrivelsen: <a href="http://heho-zealand.dk/WebAppsF2020/MandatoryAssignmentDK.html">
+                    <strong>Her</strong></a> </p>
+                <h4>React App krav</h4>
+                <ol>
+                    {/* ToDo ret underligt linjeskift, samt så listen står mere lige. */}
+                    <li>Der skal være minimum 3 komponenter.</li>
 
-    </div>
+                    <li>Der skal være et fælles Redux Store med tilhørende reducers og action creators.</li>
+
+                    <li>Der skal anvendes Thunk middleware og Axios til at hente App-data.</li>
+
+                    <li>Der skal anvendes Route og Link, så der kan navigeres mellem de forskellige komponenter.</li>
+                </ol>
+            </div>
+            <div class="col-sm">
+                <h1>SEJ OVERSKRIFT <i class="fas fa-coffee fa-spin" /> </h1>
+            </div>
         </div>
-
-
-
-
-
-
+        <br></br>
     </div>
 
 
