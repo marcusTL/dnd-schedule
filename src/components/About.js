@@ -1,4 +1,6 @@
 import React from 'react'
+// import TempleOS from "../assets/Lydklip/TempleOSHymnRisen.mp3";
+// import {Howl, Howler} from "howler";
 
 const About = () =>
 (
@@ -26,16 +28,13 @@ const About = () =>
                 <ol>
                     {/* ToDo ret underligt linjeskift, samt så listen står mere lige. */}
                     <li>Der skal være minimum 3 komponenter.</li>
-
                     <li>Der skal være et fælles Redux Store med tilhørende reducers og action creators.</li>
-
                     <li>Der skal anvendes Thunk middleware og Axios til at hente App-data.</li>
-
                     <li>Der skal anvendes Route og Link, så der kan navigeres mellem de forskellige komponenter.</li>
                 </ol>
             </div>
             <div class="col-sm">
-                <h1>SEJ OVERSKRIFT <i class="fas fa-coffee fa-spin" /> </h1>
+                <h1>SEJ OVERSKRIFT <i class="fas fa-coffee fa-spin"/></h1>
             </div>
         </div>
         <br></br>
