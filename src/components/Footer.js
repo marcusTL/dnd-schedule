@@ -8,16 +8,15 @@ function Footer() {
         <div className="container">
           <div className="row">
             {/* Kolonne 1 */}
-            <div className="col-md-3 col-sm-6">
+            <div className="col-md-3 col-sm-6 ">
             
             <h4>Kontakt</h4>
             
-         
               <ul className="list-unstyled">
                 <li>Zealand - Sjællands Erhversakadami</li>
                 <li>4000, Roskilde</li>
                 <li>Maglegårdsvej 2</li>
-                <li>4550762630</li>
+                <li>Telefon: 4550762630</li>
               </ul>
             </div>
             {/* Kolonne 2 */}

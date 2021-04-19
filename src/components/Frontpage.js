@@ -41,9 +41,9 @@ const Frontpage = () =>
             <div Class="col-sm-4">
                 <h1>Hvad er D&D</h1>
 
-                <h4>
+                <h3>
                     Et gammelt spil spillet med "pen and paper"
-                </h4>
+                </h3>
 
                 <p>Dungeons & Dragons (forkortet D&D eller DnD) er et bordrollespil. Det blev opfundet af Gary Gygax og Dave Arneson i 1970 og udgivet af Garys firma Tactical Studies Rules (TSR).</p>
 
