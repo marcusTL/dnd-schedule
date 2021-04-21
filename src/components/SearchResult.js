@@ -1,6 +1,8 @@
 import React from 'react';
 import { fetchData } from '../actions';
 import { connect } from 'react-redux';
+import { Link } from 'react-router-dom';
+import { selectItem } from '../actions';
 
 
 class SearchResult extends React.Component {
@@ -8,13 +10,14 @@ class SearchResult extends React.Component {
         this.props.fetchData();
     }
     renderList() {
-        console.log(this.props.names)
-        return this.props.names.map(spell => {
-            return (
-                <li className="item" key={spell.name}>
+        console.log(this.props.spells)
+        return this.props.spells.map(spell => {
+            return <Link to={`/spellDetails/${spell.index}`}>
+                <li key={spell} onClick={() => this.props.selectItem(spell)} >
                    <h4>{spell.name}</h4>
                 </li>
-            )
+                </Link>
+            
         })
     }
 
@@ -31,11 +34,12 @@ class SearchResult extends React.Component {
     }
 }
 
-const mapStateToProps = (state) => {
-    return { names: state.names };
-}
+const mapStateToProps = (state) => {return { spells: state.spells,
+    selectItem: selectItem};}
 
-export default connect(mapStateToProps, {fetchData})(SearchResult);
+const mapDispatchToProps = {selectItem: selectItem} 
+
+export default connect(mapStateToProps ,{fetchData,selectItem})(SearchResult);
 
 /*
     renderResult() {

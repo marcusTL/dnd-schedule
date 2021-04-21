@@ -22,6 +22,9 @@ class DnDsearch extends Component {
     render(){
         return(
             <div Class="col-sm-12">
+                <div Class="row">
+
+                
                 <div Class="col-sm-4">
                     <div Class="row">
                         <h1>DnD Search</h1>
@@ -37,6 +40,7 @@ class DnDsearch extends Component {
                 <div Class="col-sm-3">
                   <SearchResult/> 
 
+                </div>
                 </div>
             </div>
         );

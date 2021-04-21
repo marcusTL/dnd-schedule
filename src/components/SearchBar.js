@@ -16,7 +16,7 @@ class SearchBar extends React.Component{
         return(
             <form onSubmit={this.onFormSubmit} role="search">
                 <div className="input-group">
-                    <input type="text" value={this.state.term} 
+                    <input type="text" placeholder="search" value={this.state.term} 
                         onChange={ (e) => this.setState({term: e.target.value})}/>
                     {/* <div class="dropdown show">
                         <button class="btn btn-default dropdown-toggle" type="submit" id="dropdownMenuButton" 

@@ -1,12 +1,9 @@
 import {combineReducers} from 'redux';
+import selectedItemReducer from './selectedItemReducer';
+import spellReducer from './spellReducer'
 
 export default combineReducers({
-    names: (name=[],action) => {
-        switch (action.type) {
-            case 'FETCH_DATA': return action.payload;
-            default: return name; 
-        }
-    }
+   spells: spellReducer,
+   selectedItem: selectedItemReducer
 
-}) 
-
+});
