@@ -1,6 +1,5 @@
 import React from 'react'
-// import TempleOS from "../assets/Lydklip/TempleOSHymnRisen.mp3";
-// import {Howl, Howler} from "howler";
+import SoundPlay from './SoundPlay'
 
 const About = () =>
 (
@@ -22,7 +21,7 @@ const About = () =>
             </div>
             <div class="col-sm">
                 <h1>Opgaven</h1>
-                <p>Link til opgavebeskrivelsen: <a href="http://heho-zealand.dk/WebAppsF2020/MandatoryAssignmentDK.html">
+                <p>Link til opgavebeskrivelsen: <a href="http://heho-zealand.dk/WebAppsF2020/MandatoryAssignmentDK.html" target="_blank" >
                     <strong>Her</strong></a> </p>
                 <h4>React App krav</h4>
                 <ol>
