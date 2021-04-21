@@ -34,8 +34,6 @@ const SpellDetails = ({ spell }) => {
     return null;
   }
 
-
-
 const mapStateToProps = (state) => {
     return { spell : state.selectedItem };
 }

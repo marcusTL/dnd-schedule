@@ -1,5 +1,5 @@
 import React from 'react'
-import SoundPlay from './SoundPlay'
+import SoundPlay from './SoundPlay' 
 
 const About = () =>
 (
