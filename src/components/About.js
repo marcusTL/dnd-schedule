@@ -1,10 +1,6 @@
 import React from 'react'
-<<<<<<< HEAD
 import SoundPlay from './SoundPlay' 
 
-=======
-import SoundPlay from './SoundPlay'
->>>>>>> 47e04d8f0b3d7bce151aca01c72c1dda64e37e57
 const About = () =>
 (
     <div class="container">
