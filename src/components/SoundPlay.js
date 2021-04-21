@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import TempleOS from "../assets/Lydklip/TempleOSHymnRisen.mp3";
 import {Howl, Howler} from "howler";
-
+//SoundPlay Komponenten virker ikke lige pt. Meningen var at vi skulle kunne kalde på metoden i en anden komponet, og så afspille en lyd. 
 const LydKlip = [
     {sound: TempleOS, lable: 'Velsign Mig!' }
 ]
