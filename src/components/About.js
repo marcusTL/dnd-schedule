@@ -1,15 +1,12 @@
 import React from 'react'
 import SoundPlay from './SoundPlay'
-
 const About = () =>
 (
     <div class="container">
         <div class="jumbotron">
             <h1>DnD APP</h1 >
             <h4>OM OS</h4>
-
             <img src="https://www.zealand.dk/wp-content/uploads/2019/01/Zealand_logo_black_RGB_1600px_72dpi.png" class="img-rounded jumbotronImage img-fluid img-responsive" ></img>
-
         </div>
 
         <div class="row">
@@ -38,11 +35,5 @@ const About = () =>
         </div>
         <br></br>
     </div>
-
-
-
-
-
 )
-
 export default About
